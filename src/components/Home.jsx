@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/profile.png";
+import profilePic from "../assets/download.png";
 import { motion } from "framer-motion";
 const container = (delay) => ({
     hidden: { x:-100, opacity: 0 },
@@ -35,7 +35,7 @@ const Home = () => {
                             className="my-2 max-w-xl py-6 font-light tracking-tighter">{HERO_CONTENT}</motion.p>
                         </div>
                     </div>
-                    <div className="w-full lg:w-1/2 lg:p-8">
+                    <div className="w-full lg:w-1/2 lg:p-8 absolute bottom-9 right-0">
                         <div className="flex justify-center">
                             <motion.img 
                             initial={{x:100, opacity: 0}}

@@ -9,63 +9,48 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "Oct 2021 - Oct 2023",
+    role: "Full Stack Developer Intern",
+    company: "IPS Academy, Indore",
+    link: "https://cms.ipsacademy.net/",
+    description: `Contributed as an individual developer in optimizing SQL queries, enhancing website responsiveness, and reducing database costs by 10%. 
+    Utilized CodeIgniter, the MVC Framework, and RDBMS to develop and update the university's autonomous system, serving approximately 10,000 students. Developed and optimized the Campus Management System, including a Result Calculation Module that calculated SGPA and CGPA, printed TR and Marksheet, and generated results 50% faster than previous methods.
+    Created a Relative Grading System in accordance with the institute's Autonomous Rules and Regulations, reducing 75% of total paperwork.`,
+    technologies: ["HTML","CSS","PHP","Javascript", "React.js", "SQL", "mongoDB"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Rent Management System",
     image: project1,
+    link: "https://github.com/Yashpsct010/rent-management",
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Developed a full-featured Rent Management System that streamlines the process of managing rental properties, tenants, and payments. The system allows property owners to track rent payments, generate invoices, manage tenant records, and automate notifications for due payments. Built using PHP, HTML, CSS, JavaScript, and SQL, the platform improves efficiency by reducing manual tracking and paperwork.",
+    technologies: ["HTML", "CSS","PHP","Javascript","SQL"],
   },
   {
     title: "Portfolio Website",
     image: project3,
+    link: "https://github.com/Yashpsct010/react-portfolio-website",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["React", "Tailwind","framer-motion"],
   },
   {
-    title: "Blogging Platform",
+    title: "Movix",
+    image: project2,
+    link: "https://github.com/Yashpsct010/Movix",
+    description: "A movie searching app built with vanilla JavaScript.",
+    technologies: ["HTML", "CSS", "Javascript"],
+  },
+  {
+    title: "Learning Management System",
     image: project4,
+    link: "https://github.com/Yashpsct010/learning-management-system",
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Developed a comprehensive web-based platform tailored for online learning and course management. The LMS supports various roles, including Admins, Instructors, and Students, and offers features like video lectures, assignments, quizzes, and automated certificate generation. Built using Next.js, Tailwind CSS, Prisma ORM, Node.js, SQL and JWT the system was designed to streamline course delivery and tracking, improving the educational experience. I also managed the entire development process from requirement analysis to deployment, reducing administrative workload and enhancing learning efficiency.",
+    technologies: ["Next.js", "Tailwind", "Prisma", "Node.js", "SQL", "JWT"],
   },
 ];
 

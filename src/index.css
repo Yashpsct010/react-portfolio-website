@@ -7,3 +7,6 @@
     font-family: 'Inter', sans-serif;
     scroll-behavior: smooth;
 }
+a:hover{
+    color: #7f5af0;
+}

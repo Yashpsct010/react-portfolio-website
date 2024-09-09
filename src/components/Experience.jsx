@@ -1,5 +1,6 @@
 import { EXPERIENCES } from "../constants"
 import { motion } from "framer-motion"
+import { FaLink } from "react-icons/fa6";
 const Experience = () => {
     return (
         <div className="border-b border-neutral-900 pb-4">
@@ -23,7 +24,7 @@ const Experience = () => {
                         initial={{opacity: 0, x: 100}}
                         transition={{duration: 1}}
                         className="w-full max-w-xl lg:w-3/4">
-                            <h6 className="mb-2 font-semibold">{experience.role} - <span className="text-sm text-purple-100">{experience.company}</span></h6>
+                            <a href={experience.link}><h6 className="mb-2 font-semibold">{experience.role} - <span className="text-sm text-purple-100">{experience.company}</span><FaLink className="inline-block ml-2" /></h6></a>
                             <p className="mb-4 text-neutral-400">{experience.description}</p>
                             {experience.technologies.map((technology, index) => (
                                 <span key={index} className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800">{technology}</span>
