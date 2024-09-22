@@ -17,7 +17,7 @@ const Projects = () => {
                         initial={{opacity: 0, x: -100}}
                         transition={{duration: 1, delay: index * 0.5}}
                         className="w-full lg:w-1/4 mx-8">
-                            <img src={project.image} alt={project.title} width={150} height={150} className="mb-6  rounded-2xl" />
+                            <img src={project.image} alt={project.title} width={150} height={150} className="mb-6  rounded-2xl hover:scale-110 hover:drop-shadow-[0_0_20px_rgba(0,112,244,1)] transition-all duration-300" />
                         </motion.div>
                         <motion.div 
                         whileInView={{opacity: 1, x: 0}}

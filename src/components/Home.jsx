@@ -35,9 +35,10 @@ const Home = () => {
                             className="my-2 max-w-xl py-6 font-light tracking-tighter">{HERO_CONTENT}</motion.p>
                         </div>
                     </div>
-                    <div className="w-full lg:w-1/2 lg:p-8 absolute bottom-9 right-0">
-                        <div className="flex justify-center">
+                    <div className="w-full lg:w-1/2  flex justify-center items-center">
+                        <div className="flex justify-center w-[60%]">
                             <motion.img 
+                            className="rounded-[100%] border-8 border-neutral-500 overflow-hidden"
                             initial={{x:100, opacity: 0}}
                             animate={{x:0, opacity: 1}}
                             transition={{delay: 1.2, duration: 1}}
