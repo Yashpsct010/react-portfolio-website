@@ -6,21 +6,21 @@ import project5 from "../assets/projects/project-5.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With more than 2 years of hands-on experience, I have honed my skills in front-end technologies like React as well as back-end technologies like Node.js, MySQL and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 2 years of professional experience, I have worked with a variety of technologies, including React, Node.js, MySQL and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 2+ years of professional experience, I have worked with a variety of technologies, including React, Node.js, MySQL and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
-    year: "Feb 2024 - Present",
+    year: "Mar 2023 - Present",
     role: "Software Developer",
     company: "Nerds & Geeks Pvt. Ltd.",
     link: "https://nerdsandgeeks.in/",
     description: `Led a team of 4 developers to build a client-facing MERN application, improving user engagement by 35%. 
     Implemented caching and indexing strategies, reducing DB query execution time by 40%. 
     Developed reusable React components, cutting frontend development time by 20%.`,
-    technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "mongoDB", "Tailwind", "framer-motion", "React-Router-Dom"],
+    technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Tailwind", "framer-motion", "React-Router-Dom"],
   },
   {
-    year: "Oct 2021 - Oct 2023",
+    year: "Aug 2022 - Jan 2023",
     role: "Full Stack Developer Intern",
     company: "IPS Academy, Indore",
     link: "https://cms.ipsacademy.net/",
@@ -39,6 +39,14 @@ export const PROJECTS = [
     description:
       "TechInsightsAI is an innovative platform that leverages Google Gemini AI and Unsplash API to generate insightful and well-structured tech blogs. It curates the latest trends in AI, cybersecurity, software development, and emerging technologies, ensuring that developers and tech enthusiasts stay updated. With an automated content pipeline and a sleek, user-friendly UI, TechInsightsAI delivers SEO-optimized, engaging, and research-backed articles. Whether you're looking for quick coding tips, deep dives into AI advancements, or major industry news, TechInsightsAI provides high-quality, structured blogs effortlessly.",
     technologies: ["MERN Stack", "AI Integration", "Serverless Deployment (Vercel)", "PWA Ready", ],
+  },
+  {
+    title: "Learning Management System",
+    image: project4,
+    link: "https://github.com/Yashpsct010/learning-management-system",
+    description:
+      "Developed a comprehensive web-based platform tailored for online learning and course management. The LMS supports various roles, including Admins, Instructors, and Students, and offers features like video lectures, assignments, quizzes, and automated certificate generation. Built using Next.js, Tailwind CSS, Prisma ORM, Node.js, SQL and JWT the system was designed to streamline course delivery and tracking, improving the educational experience. I also managed the entire development process from requirement analysis to deployment, reducing administrative workload and enhancing learning efficiency.",
+    technologies: ["Next.js", "Tailwind", "Prisma", "Node.js", "SQL", "JWT"],
   },
   {
     title: "Rent Management System",
@@ -62,14 +70,6 @@ export const PROJECTS = [
     link: "https://github.com/Yashpsct010/Movix",
     description: "A movie searching app built with vanilla JavaScript.",
     technologies: ["HTML", "CSS", "Javascript"],
-  },
-  {
-    title: "Learning Management System",
-    image: project4,
-    link: "https://github.com/Yashpsct010/learning-management-system",
-    description:
-      "Developed a comprehensive web-based platform tailored for online learning and course management. The LMS supports various roles, including Admins, Instructors, and Students, and offers features like video lectures, assignments, quizzes, and automated certificate generation. Built using Next.js, Tailwind CSS, Prisma ORM, Node.js, SQL and JWT the system was designed to streamline course delivery and tracking, improving the educational experience. I also managed the entire development process from requirement analysis to deployment, reducing administrative workload and enhancing learning efficiency.",
-    technologies: ["Next.js", "Tailwind", "Prisma", "Node.js", "SQL", "JWT"],
   },
 ];
 
