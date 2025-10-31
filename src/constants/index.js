@@ -1,8 +1,9 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.png";
+import project6 from "../assets/projects/project-6.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With more than 2 years of hands-on experience, I have honed my skills in front-end technologies like React as well as back-end technologies like Node.js, MySQL and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -41,23 +42,14 @@ export const PROJECTS = [
     technologies: ["MERN Stack", "AI Integration", "Serverless Deployment (Vercel)", "PWA Ready", ],
   },
   {
-    title: "Learning Management System",
-    image: project4,
-    link: "https://github.com/Yashpsct010/learning-management-system",
-    description:
-      "Developed a comprehensive web-based platform tailored for online learning and course management. The LMS supports various roles, including Admins, Instructors, and Students, and offers features like video lectures, assignments, quizzes, and automated certificate generation. Built using Next.js, Tailwind CSS, Prisma ORM, Node.js, SQL and JWT the system was designed to streamline course delivery and tracking, improving the educational experience. I also managed the entire development process from requirement analysis to deployment, reducing administrative workload and enhancing learning efficiency.",
-    technologies: ["Next.js", "Tailwind", "Prisma", "Node.js", "SQL", "JWT"],
+    title: "Reveal - A Journal app with mood tracking & analytics",
+    image: project6,
+    link: "https://github.com/Yashpsct010/Reveal-Journal-App",
+    description: "Reveal is a journal app that allows you to track your mood and your thoughts. It is a simple and easy to use app that allows you to track your mood and your thoughts. It is a simple and easy to use app that allows you to track your mood and your thoughts. It is a simple and easy to use app that allows you to track your mood and your thoughts. It is a simple and easy to use app that allows you to track your mood and your thoughts.",
+    technologies: ["React", "Next.js", "Tailwind", "shadcn/ui", "Clerk", "Prisma", "PostgreSQL"],
   },
   {
-    title: "Rent Management System",
-    image: project1,
-    link: "https://github.com/Yashpsct010/rent-management",
-    description:
-      "Developed a full-featured Rent Management System that streamlines the process of managing rental properties, tenants, and payments. The system allows property owners to track rent payments, generate invoices, manage tenant records, and automate notifications for due payments. Built using PHP, HTML, CSS, JavaScript, and SQL, the platform improves efficiency by reducing manual tracking and paperwork.",
-    technologies: ["HTML", "CSS","PHP","Javascript","SQL"],
-  },
-  {
-    title: "Portfolio Website",
+    title: "Portfolio Website - My Portfolio",
     image: project3,
     link: "https://github.com/Yashpsct010/react-portfolio-website",
     description:
@@ -65,11 +57,28 @@ export const PROJECTS = [
     technologies: ["React", "Tailwind","framer-motion"],
   },
   {
-    title: "Movix",
+    title: "Eatanna - End-to-End Food Subscription Solution",
     image: project2,
-    link: "https://github.com/Yashpsct010/Movix",
-    description: "A movie searching app built with vanilla JavaScript.",
-    technologies: ["HTML", "CSS", "Javascript"],
+    link: "https://github.com/Yashpsct010/eatanna",
+    description:
+      "Designed subscription and order management system supporting secure recurring payments via Stripe.",
+    technologies: ["React", "Next.js", "Tailwind", "Stripe"],
+  },
+  {
+    title: "Learning Management System - LMS",
+    image: project1,
+    link: "https://github.com/Yashpsct010/learning-management-system",
+    description:
+      "Developed a comprehensive web-based platform tailored for online learning and course management. The LMS supports various roles, including Admins, Instructors, and Students, and offers features like video lectures, assignments, quizzes, and automated certificate generation. Built using Next.js, Tailwind CSS, Prisma ORM, Node.js, SQL and JWT the system was designed to streamline course delivery and tracking, improving the educational experience. I also managed the entire development process from requirement analysis to deployment, reducing administrative workload and enhancing learning efficiency.",
+    technologies: ["Next.js", "Tailwind", "Prisma", "Node.js", "SQL", "JWT"],
+  },
+  {
+    title: "Rent Management System",
+    image: project4,
+    link: "https://github.com/Yashpsct010/rent-management",
+    description:
+      "Developed a full-featured Rent Management System that streamlines the process of managing rental properties, tenants, and payments. The system allows property owners to track rent payments, generate invoices, manage tenant records, and automate notifications for due payments. Built using PHP, HTML, CSS, JavaScript, and SQL, the platform improves efficiency by reducing manual tracking and paperwork.",
+    technologies: ["HTML", "CSS","PHP","Javascript","SQL"],
   },
 ];
 
